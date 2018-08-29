@@ -1,12 +1,12 @@
 package proxy
 
 import (
-	"reposter/config"
-	"net/http"
-	"golang.org/x/net/proxy"
 	"context"
-	"net"
 	"fmt"
+	"golang.org/x/net/proxy"
+	"net"
+	"net/http"
+	"reposter/config"
 )
 
 func NewProxyTransport(conf *config.Config) *http.Transport {

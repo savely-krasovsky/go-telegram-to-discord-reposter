@@ -1,8 +1,8 @@
 package tgapi
 
 import (
-			"github.com/go-telegram-bot-api/telegram-bot-api"
-			"net/http"
+	"github.com/go-telegram-bot-api/telegram-bot-api"
+	"net/http"
 	"reposter/config"
 )
 
